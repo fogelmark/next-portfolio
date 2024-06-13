@@ -1,15 +1,15 @@
 "use client"
 
-import Image from "next/image"
-import React from "react"
-import { motion } from "framer-motion"
-import Link from "next/link"
 import { BsArrowRight, BsLinkedin } from "react-icons/bs"
-import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from "react-icons/fa"
-import { useSectionInView } from "@/lib/hooks"
+import { HiDownload } from "react-icons/hi"
+import { motion } from "framer-motion"
 import { useActiveSectionContext } from "@/context/active-section-context"
+import { useSectionInView } from "@/lib/hooks"
 import headshot from "@/public/headshot.jpeg"
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
 
 export function Intro() {
   const { ref } = useSectionInView("Home", 0.5)
@@ -78,7 +78,7 @@ export function Intro() {
 
         <a
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
-          href="/CV.pdf"
+          href="/cv-alexander-fogelmark.pdf"
           download
         >
           Download CV{" "}
