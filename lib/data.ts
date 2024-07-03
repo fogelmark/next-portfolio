@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Codecademy & freeCodeCamp",
     location: "Remote",
     description:
-      "I wanted to try out programming, so I took some courses on Codecademy and freeCodeCamp",
+      "I wanted a carreer change so I delved into programming via Codecademy and freeCodeCamp.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
