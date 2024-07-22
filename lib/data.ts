@@ -5,6 +5,7 @@ import counter_app from "@/public/counter-app.png";
 import leon_page from "@/public/leon-page.png";
 import cabin_rental from "@/public/cabin-rental.png"
 import next_blog from "@/public/next-blog.png"
+import next_todo from "@/public/todo-app.png"
 
 export const links = [
   {
@@ -92,6 +93,14 @@ export const projectsData = [
     tags: ["React", "Next.js", "TypeScript", "Prisma", "PostgreSQL", "Node.js", "Tailwind"],
     imageUrl: next_blog,
     demo: "https://next-blog-aff8x8bp0-alexs-projects-3d95c78a.vercel.app/"
+  },
+  {
+    title: "Task Manager App",
+    description:
+      "A simple, but elegant task manager app built with Next.js and TypeScript. Includes tests with Jest and React Testing Library.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "React Testing Library", "Jest", "Zod" ],
+    imageUrl: next_todo,
+    demo: "https://alex-next-todo.netlify.app/"
   },
 ] as const;
 
