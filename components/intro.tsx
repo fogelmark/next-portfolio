@@ -78,7 +78,7 @@ export function Intro() {
 
         <a
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
-          href="/CV_Alexander_Fogelmark_EN.pdf"
+          href="/AlexanderFogelmark_CV_EN.pdf"
           download
         >
           English CV{" "}
@@ -87,7 +87,7 @@ export function Intro() {
 
         <a
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
-          href="/CV_Alexander_Fogelmark_SV.pdf"
+          href="/AlexanderFogelmark_CV_SV.pdf"
           download
         >
           Swedish CV{" "}
