@@ -6,6 +6,7 @@ import leon_page from "@/public/leon-page.png";
 import cabin_rental from "@/public/cabin-rental.png"
 import next_blog from "@/public/next-blog.png"
 import next_todo from "@/public/todo-app.png"
+import punch_publishing from "@/public/punch-publishing.png"
 
 export const links = [
   {
@@ -101,6 +102,14 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Tailwind", "React Testing Library", "Jest", "Zod" ],
     imageUrl: next_todo,
     demo: "https://alex-next-todo.netlify.app/"
+  },
+  {
+    title: "Punch Publishing",
+    description:
+      "Official website for Punch Publishing. Includes placeholder text until I get the real content.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "React Testing Library", "Framer Motion" ],
+    imageUrl: punch_publishing,
+    demo: "https://punchpublishing.vercel.app/"
   },
 ] as const;
 
